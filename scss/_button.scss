@@ -1,0 +1,18 @@
+.hoverwhite{
+  font-size: 28px;
+  padding: 8px 70px;
+  &:hover{
+    background: rgba(255, 255, 255, 0.26);
+  }
+}
+.hovergray{
+  padding: 13px 20px;
+  font-weight: medium;
+  &:hover{
+    background: rgba(202, 202, 202, 0.26);
+  }
+}
+.thinoutline{
+  border: 1px solid ;
+  padding: 7px 12px;
+}

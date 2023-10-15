@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="scss/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+  <title>Main7</title>
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <a class="headerLogo navbar-brand" href="index.html">d’Perfume</a>
+      <div class="d-lg-none row">
+        <a href=""class="nav-link text-dark position-relative"><i class="fas fa-shopping-cart"></i><span class="bg-primary text-white rounded-circle numbrNotice">3</span></a>
+        <button class="btn btn-link"type="button" data-toggle="collapse" data-target="#burger" aria-expanded="false" aria-controls="collapseExample"><i class="fas fa-bars fa-lg text-dark"></i></button>
+      </div>
+      <div class="collapse navbar-collapse justify-content-end">
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="products.html"><i class="fas fa-tshirt text-dark mr-1"></i>Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="login.html"><i class="fas fa-user text-dark mr-1"></i>log in</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#"><i class="fas fa-heart text-dark mr-1"></i>Wishlist</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#"><i class="fas fa-shopping-cart mr-1"></i>Cart(3)</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="collapse navbar-collapse d-lg-none"id="burger">
+    <ul class="darkBurger nav">
+      <li class="nav-item py-1">
+        <a class="nav-link text-white" href="products.html">Product</a>
+      </li>
+      <li class="nav-item py-1">
+        <a class="nav-link text-white" href="#">Wishlist</a>
+      </li>
+      <li class="nav-item py-1">
+        <a class="nav-link text-white" href="#">Blog</a>
+      </li>
+      <li class="nav-item py-1">
+        <a class="nav-link text-white" href="#">Contact</a>
+      </li>
+      <li class="nav-item py-1">
+        <a class="nav-link text-white" href="login.html">log in</a>
+      </li>
+    </ul>
+  </div>
+<!-- layout -->
+<!-- navbar -->
+  <div class="bg-primary mb-5">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark p-0">
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav py-0"">
+            <li class="nav-item">
+              <a class="nav-link text-white px-3" href="#">CHANEL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white px-3" href="#">Jo Malone</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white px-3" href="#">Curology</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white px-3" href="#">Dior</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white px-3" href="#">Chloe</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white px-3" href="#">ZARA</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+<!-- content -->
+  <div class="container pt-lg-5 mb-5">
+    <div class="row align-items-center pb-5">
+      <div class="col-md-8">
+        <img src="images/login.png" alt=""class="img-fluid">
+      </div>
+      <div class="col-md-4">
+        <ul class="list-unstyled">
+          <li><h2 class="font-weight-bold mb-4">Log in</h2></li>
+          <li><label for="email" class="mb-0">帳號</label></li>
+          <li><input type="email" id="email" class="form-control" placeholder="email@example.com"></li>
+          <li><label for="password" class="mb-0">密碼</label></li>
+          <li class="mb-4"><input type="password" class="form-control" id="password" placeholder="Password"></li>
+          <li class="d-flex flex-row align-items-center justify-content-between">
+            <a href="#" class="text-decoration-none">忘記密碼</a>
+            <div>
+              <button type="button" class="btn btn-outline-primary px-3 thinoutline">註冊</button>
+              <button type="button" class="ml-lg-2 btn btn-primary px-3" onclick="location.href='info.html'"">登入</button>
+            </div>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+<!-- layout -->
+  <div class="bg-primary">
+    <div class="container d-flex p-2 align-items-center justify-content-between">
+      <div class="d-flex">
+        <a class="footerLogo mr-3" href="index.html">d’Perfume</a>
+        <p class="text-white my-2 d-md-block d-none">© 2020. All Rights Reserved.</p>
+      </div>
+      <p class="text-white my-2 d-md-none d-block">© 2020. All Rights Reserved.</p>
+      <ul class="nav d-md-flex d-none">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="products.html">Product</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+<!-- script -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/all.js"></script>
+</body>
+</html>
